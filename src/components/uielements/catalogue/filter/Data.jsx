@@ -1,0 +1,1 @@
+export const Data = ['Cloud Infrastructure','Programming','Engineers','Frontend','Insurance','Finance']
