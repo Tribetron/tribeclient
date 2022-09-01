@@ -1,6 +1,5 @@
 import React from 'react';
 import google from '../../../assets/google.png';
-import Navigate from '../../../Switcher/Navigate';
 
 const Login = () => {
   return (
@@ -15,18 +14,19 @@ const Login = () => {
        <br></br>
        <div>
         </div>
-       <button>
-          <img src={google} alt="google" />
-          Continue with google
-       </button>
+         {/* <button> */}
+         <p >Create a new account</p> 
+        {/* </button> */}
+       
           <div className='col-container-or'>
           <hr id="middle-hr"></hr>  
           <p>Or</p> 
           <hr id="middle-hr"></hr>
           </div>
-          <p>A project manager to contact you instead ?</p>
-          <input type="email" placeholder='Enter your email'/> 
-          <br></br>
+         <button style={{backgroundColor:'#171E25',marginTop:10}}>
+          <img src={google} alt="google" />
+          Continue with google
+       </button>
          
           
       </div>
