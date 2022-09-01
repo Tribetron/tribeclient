@@ -458,7 +458,7 @@ background-color: #171E25;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white;margin-top: 50px;
 }
 
 .col-verify-loader{
@@ -497,6 +497,7 @@ background-color: #171E25;
   border-bottom: 1px solid #0080ff;
   color: #fff;
   width: 300px;
+  margin-top: 50px;
 }
 
 .col-verification-response button{
@@ -514,7 +515,23 @@ background-color: #171E25;
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
+.col-verification-response button{
+  margin-top: 10px;
+ padding: 5px;
+  width: 300px;
+  height: 50px;
+  border: none;
+  background-color: #0080ff;
+  color: #fff;
+  font-family: 'Montserrat';
+  margin-top: 30px;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .col-verification-response img{

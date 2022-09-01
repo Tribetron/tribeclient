@@ -7,6 +7,7 @@ const Login = () => {
         <div className='col-verification-response'>
         <p>Looks like you are currently logged out</p>
         <input type="text" placeholder='Enter email'/>
+        <input type="password" placeholder='Enter password'/>
         <br></br>
         <button>
           Continue with email
@@ -23,7 +24,7 @@ const Login = () => {
           <p>Or</p> 
           <hr id="middle-hr"></hr>
           </div>
-         <button style={{backgroundColor:'#171E25',marginTop:10}}>
+         <button >
           <img src={google} alt="google" />
           Continue with google
        </button>

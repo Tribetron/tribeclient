@@ -25,6 +25,7 @@ const Verify = () => {
         <h3 style={{color:'green'}}>Resources Verified</h3>
         <p>Looks like you are currently logged out</p>
         <input type="text" placeholder='Enter email'/>
+        <input type="password" placeholder='Enter password'/>
         <br></br>
         <button>
           Continue with email
